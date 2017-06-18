@@ -1,0 +1,22 @@
+{
+  "name": "pokerhandeval",
+  "version": "1.0.0",
+  "description": "small poker hand ranker",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iahoffmann/pokerHandEval.git"
+  },
+  "keywords": [
+    "poker"
+  ],
+  "author": "Isaac Hoffmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iahoffmann/pokerHandEval/issues"
+  },
+  "homepage": "https://github.com/Iahoffmann/pokerHandEval#readme"
+}
