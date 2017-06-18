@@ -4,7 +4,9 @@
   "description": "small poker hand ranker",
   "main": "pokerHandEval.js",
   "scripts": {
-    "start": "node pokerHandEval.js"
+    "start": "node pokerHandEval.js",
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix"
   },
   "repository": {
     "type": "git",
