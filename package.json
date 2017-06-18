@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Iahoffmann/pokerHandEval/issues"
   },
-  "homepage": "https://github.com/Iahoffmann/pokerHandEval#readme"
+  "homepage": "https://github.com/Iahoffmann/pokerHandEval#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
 }
