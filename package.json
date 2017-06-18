@@ -2,9 +2,9 @@
   "name": "pokerhandeval",
   "version": "1.0.0",
   "description": "small poker hand ranker",
-  "main": "index.js",
+  "main": "pokerHandEval.js",
   "scripts": {
-    "test": "test"
+    "start": "node pokerHandEval.js"
   },
   "repository": {
     "type": "git",
