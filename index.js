@@ -1,18 +1,18 @@
 const readline = require('readline');
 const evaluator = require('./lib/util.js');
+const text = require('./lib/textConstants');
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
-    prompt: 'Please enter your hand> '
+    prompt: text.promptText.prompt
 });
 
 rl.prompt();
 
 rl.on('line', (line) => {
-    const testString = 'Ah As 9c 7d 6s'; //TODO REPLACE
-    console.log(evaluator.evaluateHand(testString));
+    console.log(evaluator.evaluateHand(line));
     rl.prompt();
 }).on('close', () => {
-    console.log('Have a great day!');
+    console.log(text.promptText.goodBye);
     process.exit(0);
 });
