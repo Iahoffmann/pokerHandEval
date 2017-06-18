@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 rl.prompt();
 
 rl.on('line', (line) => {
-    const testString = '6s 2h 3d 4c 5s'; //TODO REPLACE
+    const testString = 'Ah As 9c 7d 6s'; //TODO REPLACE
     console.log(evaluator.evaluateHand(testString));
     rl.prompt();
 }).on('close', () => {
